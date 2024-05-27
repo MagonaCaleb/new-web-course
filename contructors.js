@@ -44,7 +44,7 @@ myBro.change2("Birungi")
 
 console.log(myBro.firstName);
 
-/*
+
 //adding a property to an object is done as below that property is added to a single document
 
 myBro.nationality="Kenyan";
@@ -55,4 +55,3 @@ Person.prototype.nationality="Tanzanian";
 //from this code below we confirm that it's added
 console.log(myDog.nationality)
 
-*/
