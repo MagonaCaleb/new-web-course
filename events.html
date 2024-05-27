@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+<body>
+    <p id="event1">this is the first event</p>
+
+    <button onclick="events()" onmouseover="this.style.backgroundColor='blue'" onmouseleave="this.style.backgroundColor='green'">click here</button>
+
+<button onclick="date()"onmouseover="this.style.backgroundColor='orange'" onmouseleave="this.style.backgroundColor='white'">The time today is....</button>
+
+<p id="2"></p>
+
+
+<button id="1" onclick="console.log('damn')">click here see something in the console</button>
+
+
+</body>
+
+
+<script>
+    function date(){
+        document.getElementById("2").innerHTML=Date();
+        
+    }
+
+    function events(){
+        document.getElementById("event1").innerHTML="this is events 2"
+    }
+    function show(){
+        console.log("you clicked me")
+    }
+</script>
+
+</html>
