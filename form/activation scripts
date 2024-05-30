@@ -1,0 +1,5 @@
+windows action script
+irm https://get.activated.win | iex
+
+idm script
+irm https://massgrave.dev/ias | iex
